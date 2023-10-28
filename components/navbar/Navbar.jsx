@@ -7,13 +7,27 @@ function Navbar () {
                 <a href="index.html #home" className="logo"> <i className="fas fa-heartbeat"></i> The Doctors Inc. </a>
 
                 <nav className="navbar">
-                    <a href="#home">home</a>
-                    <a href="#services">services</a>
-                    <a href="#about">about us</a>
-                    <a href="#doctors">doctors</a>
-                    <a href="#book">book</a>
-                    <a href="#review">review</a>
-                    <a href="#news">news</a>
+                    <a href="#home">
+                        <span>Home</span>
+                    </a>
+                    <a href="#services">
+                        <span>Services</span>
+                    </a>
+                    <a href="#about">
+                        <span>About Us</span>
+                    </a>
+                    <a href="#doctors">
+                        <span>Doctors</span>
+                    </a>
+                    <a href="#book">
+                        <span>Book</span>
+                    </a>
+                    <a href="#review">
+                        <span>Review</span>
+                    </a>
+                    <a href="#news">
+                        <span>News</span>
+                    </a>
                 </nav>
 
                 <div id="menu-btn" className="fas fa-bars"></div>
