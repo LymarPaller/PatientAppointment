@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import { faCalendar, faChevronRight, faCircleChevronRight, faHospital, faProcedures, faUser, faUserDoctor, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faHospital, faProcedures, faUserDoctor, faUsers } from '@fortawesome/free-solid-svg-icons'
 
 function IconContainer () {
     const IconDetailArray = [

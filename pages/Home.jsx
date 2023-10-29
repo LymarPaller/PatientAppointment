@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './home.css'
-import { faCalendar, faChevronRight, faCircleChevronRight, faHospital, faProcedures, faUser, faUserDoctor, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faCalendar, faChevronRight, faCircleChevronRight, faUser} from '@fortawesome/free-solid-svg-icons'
 import surgeryIMG from './images/home-img.jpg'
 import checkUpIMG from './images/about-imgs2.jpg'
 import DoctorCards from '../components/doctor-cards/DoctorCards'
