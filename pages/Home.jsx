@@ -18,6 +18,7 @@ import blogIMG1 from './images/blog1.jpg'
 import blogIMG2 from './images/blog2.jpg'
 import blogIMG3 from './images/blog3.jpg'
 import IconContainer from '../components/icon-cards/IconContainer'
+import BoxContainers from '../components/services-box-cards/BoxContainers'
 
 
 function Home () {
@@ -93,63 +94,7 @@ function Home () {
 
                 <h1 className="heading">our <span>services</span></h1>
 
-                <div className="box-container">
-                    <div className="box">
-                        <i className="fas fa-notes-medical"></i>
-                        <h3>free checkups</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto inventore obcaecati optio beatae et cum amet quam ad aperiam, ut accusamus. Iure omnis odio incidunt? Iste modi libero labore.</p>
-                        <a href="learnmore1.html" className="btn"> learn more 
-                            <FontAwesomeIcon icon={faCircleChevronRight}/>
-                        </a>
-                    </div>
-
-                    <div className="box">
-                        <i className="fas fa-ambulance"></i>
-                        <h3>24/7 ambulance</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto inventore obcaecati optio beatae et cum amet quam ad aperiam, ut accusamus. Iure omnis odio incidunt? Iste modi libero labore.</p>
-                        <a href="learnmore2.html" className="btn"> learn more 
-                            <FontAwesomeIcon icon={faCircleChevronRight}/>
-                        
-                        </a>
-                    </div>
-
-                    <div className="box">
-                        <i className="fas fa-user-md"></i>
-                        <h3>expert doctors</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto inventore obcaecati optio beatae et cum amet quam ad aperiam, ut accusamus. Iure omnis odio incidunt? Iste modi libero labore.</p>
-                        <a href="learnmore3.html" className="btn"> learn more 
-                            <FontAwesomeIcon icon={faCircleChevronRight}/>
-                        </a>
-                    </div>
-
-                    <div className="box">
-                        <i className="fas fa-pills"></i>
-                        <h3>medicines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto inventore obcaecati optio beatae et cum amet quam ad aperiam, ut accusamus. Iure omnis odio incidunt? Iste modi libero labore.</p>
-                        <a href="learnmore4.html" className="btn"> learn more 
-                        
-                        <FontAwesomeIcon icon={faCircleChevronRight}/>
-                        </a>
-                    </div>
-
-                    <div className="box">
-                        <i className="fas fa-procedures"></i>
-                        <h3>bed facility</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto inventore obcaecati optio beatae et cum amet quam ad aperiam, ut accusamus. Iure omnis odio incidunt? Iste modi libero labore.</p>
-                        <a href="learnmore5.html" className="btn"> learn more 
-                        <FontAwesomeIcon icon={faCircleChevronRight}/>
-                        </a>
-                    </div>
-
-                    <div className="box">
-                        <i className="fas fa-heartbeat"></i>
-                        <h3>total care</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto inventore obcaecati optio beatae et cum amet quam ad aperiam, ut accusamus. Iure omnis odio incidunt? Iste modi libero labore.</p>
-                        <a href="learnmore6.html" className="btn"> learn more 
-                        <FontAwesomeIcon icon={faCircleChevronRight}/>
-                        </a>
-                    </div>
-                </div>
+                <BoxContainers/>
                 
             </section>
 
