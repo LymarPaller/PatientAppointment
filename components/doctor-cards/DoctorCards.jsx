@@ -6,11 +6,11 @@ function DoctorCards ({name, sub, img}) {
 
     return (
         <>
-        <div class="box">
+        <div className="box">
             <img src={img} alt=""/>
             <h3>{name}</h3>
             <span>{sub}</span>
-            <div class="share">
+            <div className="share">
                 <a href="https://www.facebook.com/" target="_blank">
                     <FontAwesomeIcon icon={faFacebookF}/>
                 </a>

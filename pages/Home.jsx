@@ -3,7 +3,6 @@ import './home.css'
 import { faCalendar, faChevronRight, faCircleChevronRight, faHospital, faProcedures, faUser, faUserDoctor, faUsers } from '@fortawesome/free-solid-svg-icons'
 import surgeryIMG from './images/home-img.jpg'
 import checkUpIMG from './images/about-imgs2.jpg'
-import { faHospitalAlt } from '@fortawesome/free-regular-svg-icons'
 import DoctorCards from '../components/doctor-cards/DoctorCards'
 import doctor1 from './images/doc1.jpg'
 import doctor2 from './images/doc2.jpg'
@@ -18,6 +17,7 @@ import reviewIMG3 from './images/pic3.jpg'
 import blogIMG1 from './images/blog1.jpg'
 import blogIMG2 from './images/blog2.jpg'
 import blogIMG3 from './images/blog3.jpg'
+import IconContainer from '../components/icon-cards/IconContainer'
 
 
 function Home () {
@@ -84,37 +84,8 @@ function Home () {
 
             {/* <!-- home ends here --> */}
 
-            {/* <!-- icons starts here --> */}
+            <IconContainer/>
 
-            <section className="icons-container">
-                
-                <div className="icons">
-                    <FontAwesomeIcon icon={faUserDoctor}/>
-                    <h3>140+</h3>
-                    <p>doctors at work</p>
-                </div>
-
-                <div className="icons">
-                    <FontAwesomeIcon icon={faUsers}/>
-                    <h3>1040+</h3>
-                    <p>satisfied patients</p>
-                </div>
-
-                <div className="icons">
-                    <FontAwesomeIcon icon={faProcedures}/>
-                    <h3>500+</h3>
-                    <p>bed facility</p>
-                </div>
-
-                <div className="icons">
-                    <FontAwesomeIcon icon={faHospital}/>
-                    <h3>40+</h3>
-                    <p>Vacant Rooms</p>
-                </div>
-
-            </section>
-
-            {/* <!-- icons ends here --> */}
 
             {/* <!-- services starts here --> */}
 
@@ -210,11 +181,11 @@ function Home () {
 
             {/* <!-- doctors starts here --> */}
 
-            <section class="doctors" id="doctors">
+            <section className="doctors" id="doctors">
 
-                <h1 class="heading">our <span>doctors</span></h1>
+                <h1 className="heading">our <span>doctors</span></h1>
 
-                <div class="box-container">
+                <div className="box-container">
                     {
                         doctorArray.map(
                             doctorArr=><DoctorCards
