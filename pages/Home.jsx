@@ -11,14 +11,12 @@ import doctor4 from './images/doc4.jpg'
 import doctor5 from './images/doc5.jpg'
 import doctor6 from './images/doc6.jpg'
 import bookIMG from './images/book-img.jpg'
-import reviewIMG1 from './images/pic1.jpg'
-import reviewIMG2 from './images/pic2.jpg'
-import reviewIMG3 from './images/pic3.jpg'
 import blogIMG1 from './images/blog1.jpg'
 import blogIMG2 from './images/blog2.jpg'
 import blogIMG3 from './images/blog3.jpg'
 import IconContainer from '../components/icon-cards/IconContainer'
 import BoxContainers from '../components/services-box-cards/BoxContainers'
+import ClientContainer from '../components/client-cards/ClientContainer'
 
 
 function Home () {
@@ -93,7 +91,6 @@ function Home () {
             <section className="services" id="services">
 
                 <h1 className="heading">our <span>services</span></h1>
-
                 <BoxContainers/>
                 
             </section>
@@ -175,49 +172,7 @@ function Home () {
 
             <section className="review" id="review">
                 <h1 className="heading"> client's <span>review</span></h1>
-
-                <div className="box-container">
-
-                    <div className="box">
-                        <img src={reviewIMG1} alt=""/>
-                        <h3>sam boy</h3>
-                        <div className="stars">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                        </div>
-                        <p className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde autem illo rem architecto reprehenderit non quasi inventore deleniti? Possimus sunt veritatis mollitia eius alias eligendi natus quasi saepe provident animi.</p>
-                    </div>
-
-                    <div className="box">
-                        <img src={reviewIMG2} alt=""/>
-                        <h3>sam boy</h3>
-                        <div className="stars">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star-half-alt"></i>
-                        </div>
-                        <p className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde autem illo rem architecto reprehenderit non quasi inventore deleniti? Possimus sunt veritatis mollitia eius alias eligendi natus quasi saepe provident animi.</p>
-                    </div>
-
-                    <div className="box">
-                        <img src={reviewIMG3} alt=""/>
-                        <h3>sam boy</h3>
-                        <div className="stars">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star-half-alt"></i>
-                        </div>
-                        <p className="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde autem illo rem architecto reprehenderit non quasi inventore deleniti? Possimus sunt veritatis mollitia eius alias eligendi natus quasi saepe provident animi.</p>
-                    </div>
-                </div>
-
+                <ClientContainer/>
             </section>    
 
             {/* <!-- review ends here --> */}
